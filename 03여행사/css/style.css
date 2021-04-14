@@ -1,0 +1,177 @@
+@charset "UTF-8";
+body {min-width:980px;}
+/* header영역 */
+header {width:100%; position: relative;}
+#top_header {background:#0D72A8 url(../images/top_header01.jpg)
+  no-repeat center; height:90px;}
+.top_head { width:980px; margin:0 auto;}
+/* logo영역 */
+.top_head .logo { float:left; padding:20px 0 10px 0;}
+/* 검색어영역 */
+.field {position: relative; top:30px; left:40px;}
+.field label{
+  display:block; width:60px;height: 20px; background: skyblue;
+  background-image: url(../images/searchtext.jpg);
+  text-indent:-9999px; position: absolute; top: 5px; left:160px;
+}
+.field .inp-search {width:250px; height:30px; border-radius:15px;
+text-indent:70px;}
+
+.field .btn-search{
+  width:20px; height: 20px;
+  border:0 none;
+  background-image: url(../images/search.jpg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  text-indent:-9999px;
+  border-radius:50%;
+  position: absolute; left:370px; top:5px; cursor:pointer;
+}
+
+
+/* import영역 */
+.import{width:380px;float:right;}
+.import>p{color:#fff; font-size:26px; text-align:center;
+  line-height:30px; float:left; font-weight:bold; margin-right:40px;}
+.import .sns>img{margin-top:2px;width:26px;height:26px;}
+
+/* sub_header영역 */
+#sub_header { width:100%;height: 64px;  border-bottom:2px solid #0E73A7;
+margin-bottom:60px; position: relative;}
+#sub_header>ul {width:980px; margin:0 auto;}
+#sub_header>ul>li {float:left; width:calc(980px / 6);
+border-left:1px solid #eee;}
+#sub_header>ul>li:last-child{border-right: 1px solid #eee;}
+#sub_header>ul>li .on {color:#146caa; font-weight:bold;}
+
+/* tourcity contents영역 */
+.container {height: 1200px; position: relative;}
+.visualImg {background-repeat: no-repeat;
+            background-position: center;
+            -webkit-background-size: cover;
+            background-size: cover;
+            height: 300px;
+            padding-top:40px;}
+
+.container h3{text-align:center; color:#fff; font-size:48px;}
+.contents {width: 980px; margin:0 auto; background: #fff; padding: 20px;}
+
+.container.tourcity {background-color: skyblue;}
+.container.tourcity .visualImg{background-image: url(../images/subimg01.jpg);}
+.container.tourcity .contents{position: absolute; top:250px; left:50%;
+                      transform:translateX(-50%) }
+
+
+/* container영역 */
+#container{position: absolute; margin-top:62px;}
+
+/* content_1영역 */
+
+.content_1 {width:980px; margin:0 auto;
+            margin-bottom:15px; position: relative;
+            z-index:1;}
+.content_1>img {position: absolute; right:0; top:30px; }
+.re {width:480px; height:300px; background: skyblue;
+    float:left; margin-right:40px}
+.go {height:300px; padding:30px;}
+.go>h1{font-size:60px;}
+.go>p{font-size:24px;}
+
+
+
+
+/* content_2 영역*/
+.content_2 {width:980px; margin:0 auto; position: relative;}
+
+.conWrap div {width:233px; height:240px; position: relative; margin-right:15px;
+    float:left; z-index:1; margin-bottom:16px;}
+.conWrap div>img {width:233px; height: 240px;}
+.conWrap div>a {display:block; text-align:center; line-height:50px;
+      background:#0c0b1d;
+      position: absolute; width:100%; height: 50px; bottom:0;}
+.conWrap div>a .uni {color:#fff; position: absolute; left:20px; font-weight:bold;}
+.conWrap div>a> .cash{color:green; position:   absolute; left:90px; font-weight:bold;}
+.conWrap div>a>img {position: absolute; margin-top:12px; right:10px;}
+
+/* slider영역*/
+.conWrap_2>ul>li {float:left; width:233px; margin-right:15px; position: relative;}
+.conWrap_2>ul>li:last-child{margin-right:0;}
+.bx-wrapper .bx-pager-item {display:none;}
+.prev-btn, .next-btn { position:absolute; top:100px;}
+.next-btn {right:0;}
+
+
+/* 됴쿄영역 */
+.tokyo{position: relative;}
+.tokyo>a{display:block; _text-align:center; line-height:25px;
+        background: rgba(0, 0, 0, 0.63);height:50px; width:100%; bottom:0;
+        position: absolute;}
+.name {position: absolute; color:#fff; top:20px; left:86px;
+      font-size:18px; font-weight:bold;}
+.temp {font-weight:bold; }
+.temp_1{font-size:14px;top:20px;}
+.temp, .temp_1 {color:#fff;position: absolute; left:20px; }
+
+/* 페북영역 */
+.fb{position: relative;}
+.facebook {position: absolute; padding:20px; font-size:14px;
+            font-weight:bold;}
+.fb>a {display:block; line-height:25px; background:#131853; width: 100%;
+      height: 50px; bottom: 0; position: absolute;}
+.review {font-weight:bold;}
+.review_1 {top:20px;}
+.review, .review_1 {color:#fff; position: absolute; left:20px;}
+
+
+
+.conWrap_3 {position: relative;}
+
+/* 여행정보영역 */
+.travel{position: relative; float:left; margin-right:15px;}
+.travel>img{width: 233px; height: 240px;}
+.travel>a {position: absolute; width:100%;
+left:0; text-align:center; line-height:20px; color:#fff;font-weight:bold;}
+.travel_1, .trave2_1 {margin:20px; font-size:18px;}
+.travel_2, .trave2_2 {font-size:14px;}
+
+.cWrap{width: 30px; height:30px; position: absolute;
+  left: 50%; top: 50%; transform: translate(-50%,-50%);
+  border-radius: 15px; border: 2px solid #fff;
+  display: flex; justify-content: center; align-items: center;
+  transition: .3s; cursor:pointer;}
+
+  .cWrap div {width: 20px; height: 2px; background: #fff;
+              position: absolute; border-radius:2px;}
+  .cWrap .bar2{transform:rotate(90deg);}
+  .travel:hover .cWrap{transform:translate(-50%,-50%) rotate(180deg);}
+  .travel:hover .bg {background: #000; width:100%; height:100%;
+                    position: absolute; top:0; opacity:0.1; cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ball영역 */
+.content_2 .ball{position: absolute;top:-220px;right: -100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sub_header>ul>li>a {display:block; text-align:center; line-height:62px;}
