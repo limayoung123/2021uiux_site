@@ -6,10 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>여행사</title>
   <link rel="stylesheet" href="../css/jquery.bxslider.css">
+  <link rel="stylesheet" href="../css/animate.css">
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="../js/jquery-3.1.1.min.js"></script>
   <script src="../js/jquery.bxslider.js"></script>
+  <script src="../js/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
   <script>
     $(document).ready(function(){
       $(".slider").bxSlider({
@@ -38,6 +43,23 @@
   </style>
 </head>
 <body>
+  <div class="ani">
+    <div class="box wow heartBeat" data-wow-iteration="infinite">
+      <img src="images/content1.png" alt="풍선">
+    </div>
+    <div class="box2 wow tada" data-wow-iteration="infinite">
+      <img src="images/content2.png" alt="풍선2">
+    </div>
+    <div class="box3 wow zoomIn" data-wow-iteration="infinite">
+      <img src="images/content6.png" alt="삐에로">
+    </div>
+    <div class="box4 wow bounceInRight" data-wow-iteration="infinite">
+      <img src="images/content5.png" alt="풍선3">
+    </div>
+    <div class="box5 wow bounceOutRight" data-wow-iteration="infinite">
+      <img src="images/reallyAir.png" alt="비행기">
+    </div>
+  </div>
 <header>
   <div id="top_header">
     <div class="top_head clearfix">
@@ -88,7 +110,7 @@
         <a href="company.html" >회사소개</a>
       </li>
       <li>
-        <a href="communicatioin">커뮤니티</a>
+        <a href="cum.html">커뮤니티</a>
       </li>
     </ul>
   </div>
@@ -97,8 +119,67 @@
 
   <div class="content_1 clearfix">
     <div class="re">
-      예약일정
+      <ul>
+        <li><a href="#">공항예약</a></li>
+        <li><a href="#">호텔예약</a></li>
+        <li><a href="#">렌트카</a></li>
+        <li><a href="#">휴양지</a></li>
+      </ul>
+      <div class="formWrap clearfix">
+        <fieldset>
+          <legend>여행일정</legend>
+            <ul>
+              <li class="choic">
+                <label for="golo">가고싶은 나라를 선택하세요.</label>
+                <select name="golo" id="golo">
+                  <option value="">선택하세요</option>
+                  <option value="미국">미국</option>
+                  <option value="일본">일본</option>
+                  <option value="중국">중국</option>
+                </select>
+              </li>
+              <li class="star clearfix" >
+                <div class="start">
+                  <label for="sdate">출발일</label>
+                  <input type="date" id ="sdate">
+                </div>
+              </li>
+              <li class="clearfix">
+                <div class="arrival">
+                  <label for="edate">도착일</label>
+                  <input type="date" id ="edate">
+                </div>
+              </li>
+              <li class="clearfix">
+                <div class="link">
+                  <label for="sdate">좌석등급</label>
+                  <select type="cgrade" id ="cgrade">
+                    <option value="비지니스">비지니스</option>
+                    <option value="일반석">일반석 </option>
+                </select>
+                </div>
+
+                  <div class="hum">
+                    <label for="num">성인</label>
+                    <input type="number" id ="num" placeholder="1">
+                  </div>
+                  <div class="hum1">
+                    <label for="num">아이</label>
+                    <input type="number" id ="num" placeholder="2">
+                  </div>
+
+              </li>
+            </ul>
+        </fieldset>
+        <div class="btn">
+        <button><a href="#">검색하기</a></button>
+        <img src="images/icon.png" alt="돋보기">
+        </div>
+      </div>
     </div>
+
+
+
     <div class="go">
       <h1>TRAVEL GO</h1>
       <P>지금, 여행이 떠나고싶다면?<br>
@@ -126,7 +207,9 @@
       </a>
     </div>
   </div>
-  <img src="images/02풍선.png" alt="풍선" class="ball">
+  <div class="box6 wow zoomIn" data-wow-iteration="infinite">
+    <img src="images/02풍선.png" alt="풍선" class="ball" >
+  </div>
 
   <div class="conWrap_2 clearfix" >
     <ul>
@@ -141,6 +224,17 @@
           <div class="next-btn">
               <img src="images/next.btn.png" alt="<">
           </div>
+          <div class="hillton">
+            <a href="#">
+              <p>HILLTON(PARIS)</p>
+              <img src="images/star_rate.png" alt="별">
+              <img src="images/star_rate.png" alt="별">
+              <img src="images/star_rate.png" alt="별">
+              <img src="images/star_rate-3.png" alt="별">
+              <img src="images/star_rate-3.png" alt="별">
+            </a>
+          </div>
+
       </li>
       <li>
         <ul class="slider_1">
@@ -152,6 +246,16 @@
         </div>
         <div class="next-btn">
             <img src="images/next.btn.png" alt="<">
+        </div>
+        <div class="disney">
+          <a href="#">
+            <p>관광명소(디즈니랜드)</p>
+            <img src="images/star_rate.png" alt="별">
+            <img src="images/star_rate.png" alt="별">
+            <img src="images/star_rate.png" alt="별">
+            <img src="images/star_rate-3.png" alt="별">
+            <img src="images/star_rate-3.png" alt="별">
+          </a>
         </div>
       </li>
       <li class="tokyo">
@@ -166,9 +270,17 @@
         <p class="facebook">"해외여행은 처음이었는데,<br>
           하이미디어여행 덕분에 무사히<br>다녀올 수 있었어요."</p>
           <img src="images/banner_02_02.jpg" alt="여행후기">
+          <div class="fb_star">
+            <img src="images/star_rate.png" alt="별">
+            <img src="images/star_rate.png" alt="별">
+            <img src="images/star_rate.png" alt="별">
+            <img src="images/star_rate-3.png" alt="별">
+            <img src="images/star_rate-3.png" alt="별">
+          </div>
           <a href="#">
             <p class="review">facebook 여행후기</p>
             <p class="review_1">(임정희님)</p>
+
           </a>
       </li>
     </ul>
@@ -198,18 +310,59 @@
               상세한 정보를 볼수 있습니다.</p>
             </a>
             <div class="cWrap2">
-              <div class="bar1_"></div>
-              <div class="bar2"></div>
+              <div class="bar1_1"></div>
+              <div class="bar2_1"></div>
             </div>
             <div class="bg_2"></div>
+          </li>
 
+          <li class="trave3">
+            <img src="images/banner_08.png" alt="숙박정보">
+            <a href="#">
+              <p class="trave3_1">숙박정보</p>
+              <p class="trave3_2">다양한 나라의 명소와 맛집 등<br>
+              상세한 정보를 볼수 있습니다.</p>
+            </a>
+            <div class="cWrap3">
+              <div class="bar1_2"></div>
+              <div class="bar2_2"></div>
+            </div>
+            <div class="bg_3"></div>
+          </li>
 
+          <li class="trave4">
+            <img src="images/banner_07.jpg" alt="여행자후기">
+            <a href="#">
+              <p class="trave4_1">여행자후기</p>
+              <p class="trave4_2">다양한 나라의 명소와 맛집 등<br>
+              상세한 정보를 볼수 있습니다.</p>
+            </a>
+            <div class="cWrap4">
+              <div class="bar1_3"></div>
+              <div class="bar2_3"></div>
+            </div>
+            <div class="bg_4"></div>
           </li>
         </ul>
       </div>
   </div>
 
 </div>
+
+<footer>
+  <div id="footer">
+    <ul class="clearfix">
+      <li><a href="#">이용약관</a></li>
+      <li><a href="#">개인정보취급방침</a></li>
+      <li><a href="#">사이트맵</a></li>
+      <li><a href="#">고객센터</a></li>
+      <li><a href="#">광고 및 제휴문의</a></li>
+    </ul>
+    <p>123-456 서울특별시 구로구 구로동 (주)하이미디어 사업자등록번호:123-45-478910
+      대표이사:홍길동
+    <br>COPYRIGHT©2014 HIMEDIA TOUR.ALL RIGHTS RESERVED</p>
+  </div>
+</footer>
 
 
 
