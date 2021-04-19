@@ -8,12 +8,10 @@ body {min-width:980px;position: relative;}
 .box2{top:800px; right:0;}
 .box2>img{width:200px; height: 200px;}
 
-.box3{bottom:200px; left:30px;}
+.box3{bottom:400px; left:30px;}
 
 .box4{bottom:100px; right:100px;}
 .box4>img{width:200px;height: 200px;}
-
-.box5{bottom:0; left:0;}
 
 /* header영역 */
 header {width:100%; position: relative;}
@@ -134,21 +132,6 @@ button>a {display:block; text-align:center;line-height:30px;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 여기까지폼부분 */
 .go {height:300px; padding:30px;}
 .go>h1{font-size:60px;}
@@ -158,10 +141,10 @@ button>a {display:block; text-align:center;line-height:30px;}
 
 
 /* content_2 영역*/
-.content_2 {width:980px; margin:0 auto; position: relative;}
+.content_2 {width:980px; margin:0 auto; position: relative;  z-index:1;}
 
 .conWrap div {width:233px; height:240px; position: relative; margin-right:15px;
-    float:left; z-index:1; margin-bottom:15px;}
+    float:left; margin-bottom:15px;}
 .conWrap div>img {width:233px; height: 240px;}
 .conWrap div>a {display:block; text-align:center; line-height:50px;
       background:#0c0b1d;
@@ -174,7 +157,8 @@ button>a {display:block; text-align:center;line-height:30px;}
 
 /* slider영역*/
 .conWrap_2 {margin-bottom:5px;}
-.conWrap_2>ul>li {float:left; width:233px; margin-right:15px; position: relative;}
+.conWrap_2>ul>li {float:left; width:233px; margin-right:15px; position: relative;
+ z-index:1;}
 .conWrap_2>ul>li:last-child{margin-right:0;}
 .bx-wrapper .bx-pager-item {display:none;}
 .prev-btn, .next-btn { position:absolute; top:100px;}
@@ -216,7 +200,8 @@ button>a {display:block; text-align:center;line-height:30px;}
 .travel{position: relative; float:left; margin-right:15px;}
 .travel>img{width: 233px; height: 240px;}
 .travel>a { position: absolute; width:100%;
-left:0; text-align:center; line-height:20px; color:#fff;font-weight:bold;}
+left:0; text-align:center; line-height:20px; color:#fff; font-weight:bold;}
+.travel:hover a{color:#000;}
 .travel_1, .trave2_1, .trave3_1, .trave4_1 {margin:20px; font-size:18px;}
 .travel_2, .trave2_2, .trave3_2, .trave4_2 {font-size:14px;}
 
@@ -240,7 +225,7 @@ left:0; text-align:center; line-height:20px; color:#fff;font-weight:bold;}
 .trave2>a {display:block; position: absolute; width:100%;
           left:0; text-align:center; line-height:20px; color:#fff;
           font-weight:bold; bottom:20px;}
-
+.trave2:hover a{color:#f5fa14}
 .cWrap2{width: 30px; height:30px; position: absolute;
       left: 50%; top: 50%; transform: translate(-50%,-50%);
       border-radius: 15px; border: 2px solid #fff;
@@ -280,6 +265,7 @@ left:0; text-align:center; line-height:20px; color:#fff;font-weight:bold;}
 .trave4>a { position: absolute; width:100%;
           left:0; text-align:center; line-height:20px; color:#fff;
           font-weight:bold;}
+.trave4:hover a{color:#000;}
 .cWrap4{width: 30px; height:30px; position: absolute;
         left: 50%; top: 50%; transform: translate(-50%,-50%);
         border-radius: 15px; border: 2px solid #fff;
@@ -295,7 +281,8 @@ left:0; text-align:center; line-height:20px; color:#fff;font-weight:bold;}
 
 
 /* ball영역 */
-.content_2 .ball{position: absolute; top:-500px;right: -230px;}
+.content_2 .ball{position: absolute; top:-250px;right: -230px;}
+
 
 
 
