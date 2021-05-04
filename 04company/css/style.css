@@ -35,10 +35,6 @@ border-radius:25px; background:#CE3E3E;}
 
 
 
-
-
-
-
 /* slider영역 */
 .bx-wrapper {
     -moz-box-shadow: none;
@@ -106,7 +102,79 @@ padding-top:13px; cursor:pointer;}
 /* new영역 */
 .new{width: 100%; height: 570px; background: #F5EEDB;}
 .new1 {width:1240px;margin:0 auto;}
-.new1 img{width:300px; height: 300px; margin-right:6px;}
-.new1 img:last-child{margin-right:0px;}
+.new1 a{margin-right:6px;}
+.new1 img{width:300px; height: 300px;}
+.new1 a:last-child{margin-right:0px;}
 .new1 h4{font-size:24px; color:#212121; text-align:center; line-height:40px; padding-top:52px;}
 .new1 p {color:#615B5A; text-align:center; line-height:40px; margin-bottom:30px;}
+
+/* blog영역 */
+.blog{width: 100%; height: 570px;}
+.blog1 {width:1240px;margin:0 auto;}
+.blog1 a{margin-right:6px;}
+.blog1 img{width:300px; height: 300px;}
+.blog1 a:last-child{margin-right:0px;}
+.blog1 h4{font-size:24px; color:#212121; text-align:center; line-height:40px; padding-top:52px;}
+.blog1 p {color:#615B5A; text-align:center; line-height:40px; margin-bottom:30px;}
+
+/* container */
+.container{
+  height: 700px;background:#aaa url(../images/brand_main.png) no-repeat center fixed;
+  background-size:cover; color:#fff; padding:70px 0; margin-bottom: 80px;}
+.container .section{width: 1240px;margin: 0 auto}
+.container .section>h4{text-align:center;font-size:2rem;margin-bottom: 100px;}
+.container .section li{
+  float: left;width:calc( ( 100% - 60px ) / 4 );
+  height: 380px;padding-top:40px;border-radius: 10px;transition:0.3s;cursor:pointer
+}
+.container .section li + li{margin-left:20px;}
+.container .section li:hover{
+  box-shadow:8px 8px 10px rgba(0,0,0,0.5);transform:translate(-10px,-10px)
+}
+.container .section li img{display: block;margin: 0 auto}
+.container .section .card_body{padding: 30px 40px;}
+.container .section .card_body h3{margin-bottom: 20px; text-align:center;}
+.container .section .card_body>p{font-size:14px;}
+
+
+/* seacrh영역 */
+.search {width: 100%;}
+.search1 {width: 1240px; height: 310px; margin: 0 auto; border: 1px solid #DDD; position: relative;}
+.search .search1 .shop {width:620px;height:100%; padding: 74px 40px;}
+.search .search1 .shop .look {width: 540px; height: 160px;
+margin: 0 auto; position: relative;}
+.search .search1 .shop .look>h4 {font-size:22px; color:#212121; margin-bottom: 16px;}
+.search .search1 .shop .look>p {font-size:14px; color:#212121; margin-bottom: 16px;}
+.search .search1 .shop .look img{width: 160px; height: 160px; position: absolute;
+right: 0; top:0}
+.search .search1 .shop .look .box1 {width: 300px; height: 48px; border: 1px solid #c4c4c4;}
+.search .search1 .shop .look .box2 {width: 48px; height: 48px; background: #E14B32;position: absolute; right:193px;
+top:80px}
+.search .search1 .shop .look .box2 img {width: 24px; height: 24px; position: absolute; top:12px; left:12px; }
+
+.search .search1 .shop2 {width:620px;height:100%; padding: 74px 40px; position: absolute; top:0; left:620px;}
+
+.search .search1 .shop2 .good>h4 {font-size:22px; color:#212121; margin-bottom: 16px;}
+.search .search1 .shop2 .good>p {font-size:14px; color:#212121; margin-bottom: 16px;}
+.search .search1 .shop2 .good img{width: 160px; height: 160px; position: absolute;
+right: 10px; top:70px}
+
+
+
+/* footer영역 */
+footer{width: 100%;}
+.footer {width: 1240px; margin: 0 auto; background: skyblue;}
+.footer ul li
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
