@@ -144,6 +144,7 @@ margin:0 auto;}
 .container .section .card_body{padding: 30px 40px;}
 .container .section .card_body h3{margin-bottom: 20px; text-align:center;}
 .container .section .card_body>p{font-size:14px;}
+.container .section  .h3 {display: none; font-size:17px;}
 
 
 /* seacrh영역 */

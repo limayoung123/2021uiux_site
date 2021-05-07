@@ -44,13 +44,33 @@ width: 50px; height: 50px;}
 
   .new {display: none;}
 
-.blog .blog1 {width: 100%; position: relative; background:gray}
+.blog .blog1 {width: 100%; position: relative; background: #F5EEDB;}
 .blog .blog1 a{padding: 20px;}
-.blog .blog1 img{width: 100%;}
+.blog .blog1 img{}
 .blog .blog1 li a:nth-child(1),
 .blog .blog1 li a:nth-child(2) {display: none;}
 .blog1 h4 {margin-bottom: 30px;}
 .blog1 p {display: none;}
 .blog1 .more {display: block; position: absolute; top:12%;right:5%;}
-}
+
 /* 이미지 크기 어떻게 하는지 */
+
+/* container */
+.container {width: 100%; background:green;position: relative;
+background: url(../images/brand_img.png) no-repeat center;
+  background-size:contain ;color:#fff; height: 600px;}
+.container .section li{display: none;}
+.container .section .h3 {display: block;position: absolute; top:40%; left:35%;}
+
+
+
+
+
+
+
+
+
+
+
+
+}
