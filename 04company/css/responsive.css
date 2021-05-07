@@ -10,25 +10,44 @@
 /* slider영역 */
 .sliderWrap li.slider1st,
 .sliderWrap li.slider2st,
-.sliderWrap li.slider3st{background: #FFF5E5; width: 100%; height: 400px;}
-.sliderWrap .slider_text {position: absolute; top:30%;
+.sliderWrap li.slider3st{_background: #FFF5E5; width: 100%; height: 600px;background-position: center bottom; background-size:contain;}
+.sliderWrap .slider_text {position: absolute; top:100px;
 left:50% ; }
 .sliderWrap .slider_text .p1 {color:#EE9510; text-shadow:none;}
 .prev-btn, .next-btn {position: absolute; top:280px; cursor:pointer;
 width: 50px; height: 50px;}
-.prev-btn {left:38px;}
-.next-btn {right:36px;}
+.prev-btn img, .next-btn img{width: 100%;}
+
+.prev-btn {left:20px;}
+.next-btn {right:20px;}
+
+/* 슬라이더 이미지 만들기 */
 
 /* content영역 */
   .content .contList{width: 100%;}
   .content .contList>li {width: 50%; height: 310px !important; order:11}
-  .content .contList>li:nth-child(1){}
-  .content .contList>li:nth-child(2){}
-  .content .contList>li:nth-child(3){}
-  .content .contList>li:nth-child(4){}
-  .content .contList>li:nth-child(5){}
-  .content .contList>li:nth-child(6){}
-  .content .contList>li:nth-child(7){}
-  
+  .content .contList>li:nth-child(1){display:none;}
 
+  .content .contList>li:nth-child(2),
+  .content .contList>li:nth-child(3) {padding:20px;background: skyblue;}
+  .content .contList>li:nth-child(2) img,
+  .content .contList>li:nth-child(3) img{width: 100%}
+
+/* 글자 입력하는법 */
+  .content .contList>li:nth-child(4){display:none;}
+  .content .contList>li:nth-child(5){display:none;}
+  .content .contList>li:nth-child(6){display:none;}
+  .content .contList>li:nth-child(7){display:none;}
+
+.new {display: none;}
+
+.blog .blog1 {width:100%;position: relative; background: pink;}
+.blog .blog1 a{padding: 20px;}
+.blog .blog1 a{width: 100%;}
+.blog .blog1 li a:nth-child(1),
+.blog .blog1 li a:nth-child(2) {display: none;}
+.blog1 h4 {margin-bottom: 30px;}
+.blog1 p {display: none;}
+.blog1 .more {display: block; position: absolute; top:12%;right:5%;}
 }
+/* 이미지 크기 어떻게 하는지 */
