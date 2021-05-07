@@ -68,7 +68,7 @@ background-position:center; background-size:cover ; height: 871px;}
 .sliderWrap .slider_text h3 {color:#542623;font-size:45px;font-weight:bold}
 .sliderWrap .slider_text .p1 {color:#FFEED3; font-size:22px; font-weight:bold;
 text-shadow: 0 0 2px #000;}
-.sliderWrap .slider_text .p2 {color:#542623; font-size:18px; font-weight:bold;
+.sliderWrap .slider_text .p2 {color:#542623; font-size:18px; font-weight:100;
 text-shadow: 0 0 2px #fff;}
 
 

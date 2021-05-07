@@ -22,8 +22,8 @@ left:50% ;  width:310px; height:170px; padding: 20px;}
 width: 50px; height: 50px;}
 .prev-btn img, .next-btn img{width: 100%;}
 .bx-wrapper .bx-pager {bottom:40px;}
-.prev-btn {left:58px;}
-.next-btn {right:55px;}
+.prev-btn {left:60px;}
+.next-btn {right:57px;}
 
 
 /* content영역 */
@@ -42,11 +42,11 @@ width: 50px; height: 50px;}
   .content .contList>li:nth-child(6){display:none;}
   .content .contList>li:nth-child(7){display:none;}
 
-.new {display: none;}
+  .new {display: none;}
 
-.blog .blog1 {width:100%;position: relative; background: pink;}
+.blog .blog1 {width: 100%; position: relative; background:gray}
 .blog .blog1 a{padding: 20px;}
-.blog .blog1 a{width: 100%;}
+.blog .blog1 img{width: 100%;}
 .blog .blog1 li a:nth-child(1),
 .blog .blog1 li a:nth-child(2) {display: none;}
 .blog1 h4 {margin-bottom: 30px;}
