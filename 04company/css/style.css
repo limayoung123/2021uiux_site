@@ -138,7 +138,7 @@ padding-top:13px; cursor:pointer;}
 
 
 /* seacrh영역 */
-.search {width: 100%;}
+.search {width: 100%; margin-bottom: 80px;}
 .search1 {width: 1240px; height: 310px; margin: 0 auto; border: 1px solid #DDD; position: relative;}
 .search .search1 .shop {width:620px;height:100%; padding: 74px 40px;}
 .search .search1 .shop .look {width: 540px; height: 160px;
@@ -149,7 +149,7 @@ margin: 0 auto; position: relative;}
 right: 0; top:0}
 .search .search1 .shop .look .box1 {width: 300px; height: 48px; border: 1px solid #c4c4c4;}
 .search .search1 .shop .look .box2 {width: 48px; height: 48px; background: #E14B32;position: absolute; right:193px;
-top:80px}
+top:79px}
 .search .search1 .shop .look .box2 img {width: 24px; height: 24px; position: absolute; top:12px; left:12px; }
 
 .search .search1 .shop2 {width:620px;height:100%; padding: 74px 40px; position: absolute; top:0; left:620px;}
@@ -162,9 +162,15 @@ right: 10px; top:70px}
 
 
 /* footer영역 */
-footer{width: 100%;}
-.footer {width: 1240px; margin: 0 auto; background: skyblue;}
-.footer ul li
+footer{width: 100%;margin-bottom: 20px;}
+.footer {width: 1240px; margin: 0 auto;  position: relative;}
+.footer ul {position: absolute; top:15%; left:20%;}
+.footer ul li  {float: left; margin-right:78px;}
+.footer ul li:last-child  {margin-right:0}
+.footer ul li a {color:#212121; display: block; font-size:16px;}
+
+.footer .p{color:#989898; font-size:14px; position: absolute; top:50%; left:20%;}
+.footer .fimg img {width:105px; height: 136px;}
 
 
 
