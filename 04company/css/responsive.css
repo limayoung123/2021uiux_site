@@ -38,6 +38,7 @@ left:50% ;  width:310px; height:170px; padding: 20px;}
 .sliderWrap .slider_text .p1 {color:#EE9510; text-shadow:none; font-size:16px;margin-bottom: 3px;}
 .sliderWrap .slider_text .p2 {font-size:12px;}
 .prev-btn, .next-btn {display:none;}
+.bx-wrapper .bx-pager {bottom:80px;}
 
 
 
@@ -77,11 +78,11 @@ background: url(../images/brand_img.png) no-repeat center;
   background-size:contain ;color:#fff; height: 600px;
 margin-bottom: 0;}
 .container .section li{display: none;}
-.container .section .h3 {display: block;position: absolute; top:40%; left:30%;}
+.container .section .h3 {display: block;position: absolute; top:40%; left:35%;}
 .sbox {border: 1px solid #fff; width: 240px; height: 30px;
-margin: 0 auto; position: absolute; left:16%; top:50%;}
-.sbox img {position: absolute; left:40%;top:-25%}
-.sbox p{font-size:12px;  position: absolute;}
+margin: 0 auto; position: absolute; left:25%; top:50%;}
+.sbox img { display: block; position: absolute; left:40%;top:-25%}
+.sbox p{display: block; font-size:12px;  position: absolute;}
 .sbox .p1{ top:20%; left:8%;}
 .sbox .p2 { top:20%; right:8%; }
 
@@ -104,9 +105,9 @@ position:absolute;; top:10%; left:8%}
   width: 180px; height: 30px; border: 1px solid #c4c4c4;}
   .search .search1 .shop .look .box2 {
   width: 30px; height: 30px; background: #E14B32;position: absolute;
-  left:180px; top:71px}
+  left:179px; top:90%}
 .search .search1 .shop .look .box2 img {
-  width: 24px; height: 24px; position: absolute; top:3px; left:3px; }
+  width: 24px; height: 24px; position: absolute; top:2px; left:4px; }
 
 
   .search .search1 .shop2 {position: absolute; left:0; top:50%;}
