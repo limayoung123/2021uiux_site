@@ -102,17 +102,18 @@ padding-top:13px; cursor:pointer;}
 /* new영역 */
 .new{width: 100%; height: 570px; background: #F5EEDB;}
 .new1 {width:1240px;margin:0 auto;}
-.new1 a{margin-right:6px;}
-.new1 img{width:300px; height: 300px;}
+.new1 a{margin-right:6px; display: block; width:calc((100% - 18px) / 4);float: left;}
 .new1 a:last-child{margin-right:0px;}
+.new1 img{width:100%}
 .new1 h4{font-size:24px; color:#212121; text-align:center; line-height:40px; padding-top:52px;}
 .new1 p {color:#615B5A; text-align:center; line-height:40px; margin-bottom:30px;}
 
 /* blog영역 */
 .blog{width: 100%; height: 570px;}
 .blog1 {width:1240px;margin:0 auto;}
-.blog1 a{margin-right:6px;}
-.blog1 img{width:300px; height: 300px;}
+.blog1 a{margin-right:6px;display: block; width:calc((100% - 18px) / 4);float: left;}
+.blog1 a:last-child{margin-right:0px;}
+.blog1 img{width: 100%;}
 .blog1 a:last-child{margin-right:0px;}
 .blog1 h4{font-size:24px; color:#212121; text-align:center; line-height:40px; padding-top:52px;}
 .blog1 p {color:#615B5A; text-align:center; line-height:40px; margin-bottom:30px;}

@@ -2,27 +2,20 @@
 
 @media screen and (max-width:700px){
 /* head영역 */
-#headerTop h1.logo{position: relative; top:20px; left:80px;}
+#headerTop h1.logo{position: relative; top:20px; left:6%;}
 #headerTop h1.logo img{width:196px;height:50px;}
 #headerTop{width: 100%;}
 #headerTop .toggle, #headerTop .toggle2{display: block; cursor:pointer;}
 #main_menu {display:none;}
 
 
+/* toggle1영역 */
+
+
 /* toggle2영역 */
-#headerTop .toggle2 {width:48px; height: 48px; float: left; left:196px; top:16px;
+#headerTop .toggle2 {width:48px; height: 48px; float: left; left:190px; top:16px;
 position: relative; display: flex; justify-content: center;align-items: center;
-top: 16px;right: 16px; border-radius:25px; background:#CE3E3E;}
-
-
-
-
-
-
-
-
-
-
+ border-radius:25px; background:#CE3E3E;}
 
 
 
@@ -38,22 +31,27 @@ left:50% ;  width:310px; height:170px; padding: 20px;}
 .sliderWrap .slider_text .p1 {color:#EE9510; text-shadow:none; font-size:16px;margin-bottom: 3px;}
 .sliderWrap .slider_text .p2 {font-size:12px;}
 .prev-btn, .next-btn {display:none;}
-.bx-wrapper .bx-pager {bottom:80px;}
+.bx-wrapper .bx-pager {bottom:90px;}
 
 
 
 /* content영역 */
-  .content {margin-bottom: 32px;}
+  .content {margin-bottom: 32px; }
   .content .contList{width: 100%;}
-  .content .contList>li {width: 50%; height: 310px !important; order:11}
-  .content .contList>li:nth-child(1){display:none;}
+  .content .contList>li {width: 50%; height: 310px; order:11}
+
+  .content .contList>li:nth-child(1){width: 100%;height: 90px; padding-top: 20px;background: #F5EEDB;}
+  .content .contList>li:nth-child(1) a{display: block;
+    text-align:center;font-size:16px; color:#212121}
+  .content .contList>li:nth-child(1) p{font-size:14px; color:#EE9510; font-weight: bold;
+  border-bottom:none; text-align:right;width: 100%;}
+  .content .contList>li:nth-child(1) img{display: none;}
 
   .content .contList>li:nth-child(2),
-  .content .contList>li:nth-child(3) {padding:20px;background: #F5EEDB;}
+  .content .contList>li:nth-child(3) {padding:20px; background: #F5EEDB;}
   .content .contList>li:nth-child(2) img,
-  .content .contList>li:nth-child(3) img{width: 100%}
+  .content .contList>li:nth-child(3) img{width: 100%;}
 
-/* 글자 입력하는법 */
   .content .contList>li:nth-child(4){display:none;}
   .content .contList>li:nth-child(5){display:none;}
   .content .contList>li:nth-child(6){display:none;}
@@ -61,16 +59,15 @@ left:50% ;  width:310px; height:170px; padding: 20px;}
 
   .new {display: none;}
 
-.blog .blog1 {width: 100%; position: relative; background: #F5EEDB;}
-.blog .blog1 a{padding: 20px;}
-.blog .blog1 img{}
+.blog .blog1 {width: 100%;position: relative; background: #F5EEDB;padding: 0 20px;}
+.blog .blog1 a {margin-right: 10px; display: block; width:calc((100% - 10px) / 2);float: left;}
+.blog .blog1 a:last-child {margin-right: 0px;}
 .blog .blog1 li a:nth-child(1),
 .blog .blog1 li a:nth-child(2) {display: none;}
 .blog1 h4 {margin-bottom: 30px; font-size:16px}
 .blog1 p {display: none;}
-.blog1 .more {display: block; position: absolute; top:10%;right:3%;}
+.blog1 .more {display: block; position: absolute; top:25%;right:3%;}
 
-/* 이미지 크기 어떻게 하는지 */
 
 /* container */
 .container {width: 100%; background:green;position: relative;
@@ -78,9 +75,9 @@ background: url(../images/brand_img.png) no-repeat center;
   background-size:contain ;color:#fff; height: 600px;
 margin-bottom: 0;}
 .container .section li{display: none;}
-.container .section .h3 {display: block;position: absolute; top:40%; left:35%;}
+.container .section .h3 {display: block;position: absolute; top:40%; left:30%;}
 .sbox {border: 1px solid #fff; width: 240px; height: 30px;
-margin: 0 auto; position: absolute; left:25%; top:50%;}
+margin: 0 auto; position: absolute; left:16%; top:50%;}
 .sbox img { display: block; position: absolute; left:40%;top:-25%}
 .sbox p{display: block; font-size:12px;  position: absolute;}
 .sbox .p1{ top:20%; left:8%;}
@@ -95,17 +92,17 @@ margin: 0 auto; position: absolute; left:25%; top:50%;}
 position:absolute;; top:10%; left:8%}
 .search .search1 .shop .look>h4 ,
 .search .search1 .shop2 .good>h4
- {font-size:22px; color:#212121; margin-bottom: 12px;}
+ {font-size:16px; color:#212121; margin-bottom: 16px;}
 .search .search1 .shop .look>p ,
   .search .search1 .shop2 .good>p
-  {font-size:14px; color:#212121; margin-bottom: 12px;}
+  {font-size:12px; color:#212121; margin-bottom: 16px;}
 .search .search1 .shop .look img{width: 60px; height: 60px;
    position: absolute; right: -30%; top:5%}
 .search .search1 .shop .look .box1 {
   width: 180px; height: 30px; border: 1px solid #c4c4c4;}
   .search .search1 .shop .look .box2 {
   width: 30px; height: 30px; background: #E14B32;position: absolute;
-  left:179px; top:90%}
+  left:179px; top:86%}
 .search .search1 .shop .look .box2 img {
   width: 24px; height: 24px; position: absolute; top:2px; left:4px; }
 
