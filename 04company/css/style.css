@@ -21,11 +21,10 @@ font-weight:bold;}
 #headerTop .toggleMenu div {width: 23px;height:3px;border-radius:3px;position: absolute;
   left:50%; transform:translateX(-50%);background:#fff; transition:0.3s;}
 
-#headerTop .toggleMenu .bar1{top:11px; left:50%; top:50%;transform:translate(-50%,-50%) rotate(-45deg)}
-#headerTop .toggleMenu .bar2{top:22px; opacity: 0;}
-#headerTop .toggleMenu .bar3{top:33px; left:50%; top:50%;transform:translate(-50%,-50%) rotate(45deg)}
+#headerTop .toggleMenu .bar1{top:11px;}
+#headerTop .toggleMenu .bar2{top:22px;}
+#headerTop .toggleMenu .bar3{top:33px;}
 
-/* 클릭안했는데 바꿔져 있는거 물어보기 */
 /* toggleMenu2영역 */
 #headerTop .toggle2 {width:48px; height: 48px; float: right;
 position: relative; display: flex; justify-content: center;align-items: center; display: none;

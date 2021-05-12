@@ -4,15 +4,20 @@ $(document).ready(function(){
   });
 
 
-$(".toggle").click(function(){
-const tog = $(".toggle").attr("class");
-if(tog == "toggle"){
-$(".toggle").addClass("change");
+$(".toggleMenu").click(function(){
+const menu = $(".toggleMenu").attr("class");
+if(menu == "toggleMenu"){
+$(".toggleMenu").addClass("change");
 $("#main_menu").stop().animate({top:0});
  }else{
-$(".toggle").removeClass("change");
+$(".toggleMenu").removeClass("change");
 $("#main_menu").stop().animate({top:"-100%"});
 }
 });
+$(window).resize(function(){
+      $("#main_menu").removeAttr("style");
+      $(".toggleMenu").removeClass("change");
 });
- // 토클메뉴 클릭시 바뀌게 하는것
+
+// toggle2영역하기
+});
