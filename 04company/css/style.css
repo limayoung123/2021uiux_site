@@ -16,7 +16,7 @@ font-weight:bold;}
 
 /* toggleMenu영역 */
 #headerTop .toggle {width:48px; height: 48px;position: absolute;  display: none;border-radius:25px;
-  background:#EABB47;top: 16px;left: 16px;}
+  background:#EABB47;top: 16px;left:5%;}
 #headerTop .toggleMenu { width:48px; height: 48px;display: flex; justify-content: center;align-items: center;}
 #headerTop .toggleMenu div {width: 23px;height:3px;border-radius:3px;position: absolute;
   left:50%; transform:translateX(-50%);background:#fff; transition:0.3s;}
@@ -28,7 +28,7 @@ font-weight:bold;}
 /* toggleMenu2영역 */
 #headerTop .toggle2 {width:48px; height: 48px; float: right;
 position: relative; display: flex; justify-content: center;align-items: center; display: none;
-top: 16px;right: 16px;
+top: 16px;right:5%;
 border-radius:25px; background:#CE3E3E;}
 #headerTop .toggleMenu2 >p{font-size: 12px; color:#fff; padding:8px 12px;}
 
