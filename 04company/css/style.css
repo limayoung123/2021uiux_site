@@ -30,7 +30,8 @@ font-weight:bold;}
 position: relative; display: flex; justify-content: center;align-items: center; display: none;
 top: 16px;right:5%;
 border-radius:25px; background:#CE3E3E;}
-#headerTop .toggleMenu2 >p{font-size: 12px; color:#fff; padding:8px 12px;}
+#headerTop .toggleMenu2 >p{font-size: 12px; color:#fff;display: flex; justify-content: center;align-items: center;
+padding-top: 8px; }
 
 
 
