@@ -20,4 +20,11 @@ $(window).resize(function(){
 });
 
 // toggle2영역하기
+
+$("#main_menu > ul > li").mouseover(function(){
+  $(this).find(".sub1").stop().slideDown(500);
+});
+$("#main_menu > ul > li").mouseout(function(){
+  $(this).find(".sub1").stop().slideUp(500);
+});
 });

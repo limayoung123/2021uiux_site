@@ -11,12 +11,15 @@
   transform: translateX(-50%);}
 
 
+
 /* toggle1영역 */
 #main_menu {position: fixed; width:80%; height: 100%; left: 0;top:-100%; background:#CE3E3E; transition: 0.3s}
-#main_menu>ul {background:#EABB47; width: 80%;}
+#main_menu>ul {background:#EABB47; width: 80%; height: 100%;}
 #main_menu>ul>li {float:none !important; text-align:center; }
-#main_menu li a{color:#212121;}
+#main_menu li a{color:#565656;font-size:14px}
 #main_menu li:hover {background: #fff;}
+/* 클릭시 서브메뉴는 안보이게 */
+#main_menu .sub1 {display: none;}
 #headerTop .toggleMenu.change .bar1{top:11px; left:50%; top:50%;transform:translate(-50%,-50%) rotate(-45deg)}
 #headerTop .toggleMenu.change .bar2{top:22px; opacity: 0;}
 #headerTop .toggleMenu.change .bar3{top:33px; left:50%; top:50%;transform:translate(-50%,-50%) rotate(45deg)}

@@ -8,10 +8,19 @@ left: 50%; top:0px; transform:translateX(-50%); background: #fff;} /* 가운데 
 #headerTop h1.logo{float: left; width:100px; line-height: 50px;}
 #headerTop #main_menu{float: right;}
 
-#main_menu li {float: left;}
-#main_menu li a{display: block; padding: 20px; line-height:50px; color:#615B5A;
-font-weight:bold;}
-#main_menu li:hover {background: #FFEED3;}
+#main_menu{float: left; width: 900px; height: 100%;}
+#main_menu li {float: left; width:calc(900px / 5 ) }
+#main_menu li a{display: block; line-height:50px; color:#615B5A; text-align:center;
+font-weight:bold;padding-top: 20px;}
+#main_menu li a:hover {color:#CE3E3E}
+
+.sub1 {
+  display:none; position: absolute; left:0 top:44px; width: 100%;}
+.sub1 li {width:50%; background:#CE3E3E;}
+.sub1 li a{text-align:center; line-height: 30px; font-size:14px; display: block;}
+.sub1 li:hover {background: #f18686; }
+#main_menu .sub1 li>a{color:#fff }
+
 
 
 /* toggleMenu영역 */
