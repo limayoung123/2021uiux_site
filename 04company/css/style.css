@@ -185,10 +185,30 @@ footer{width: 100%;margin-bottom: 20px;}
 .footer .fimg img {width:105px; height: 136px;}
 
 
+/* sub페이지 */
 
+.sub1 img {width: 100%;}
+.nav{width: 1240px; margin: 0 auto;background: #EF895E; height: 60px;
+  border-radius: 20px; position: relative; top:-30px}
+.nav ul li{float: left; width:calc((1240px - 340px) / 5);}
+.nav ul li{margin-right:85px;}
+.nav ul li:last-child{margin-right:0;}
+.nav ul li a{display: block; text-align:center; line-height: 60px;
+  font-size:16px; color:#fff; font-weight: bold;}
+.nav .point a{color:#AB1D1D;}
+.slogo{display: none;}
 
+.sMenu{width:400px; margin:78px 350px}
+.sMenu ul li{float: left;}
+.sMenu ul li a{display: block; text-align:center; line-height:40px;
+  font-size:13px; color:#212121;}
+.sMenu .sPoint a {color:#F94F4F;}
 
+.line{border-bottom: 1px solid #E5E5E5; width: 100%; margin-bottom: 30px;}
 
+.content{margin: 0 auto; width: 1240px;}
+.subI{margin: 0 auto; width: 1240px;margin-bottom: 78px;}
+.msub{display: none; }
 
 
 
