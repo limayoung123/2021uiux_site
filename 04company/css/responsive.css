@@ -149,17 +149,23 @@ left:120px;}
 /* top:px 이상하면 빼버리기 */
 .nav ul li{float: left;  width:calc((100% -80px) / 5);}
 .nav ul li{margin-right:40px;}
-.nav ul li+li{border-left: 1px solid #E5E5E5;}
+
 .nav ul li:first-child{margin-left:80px;}
 .nav ul li:nth-child(3){margin-right:0;}
-.nav ul li:nth-child(2), .nav ul li:nth-child(4), .nav ul li:nth-child(5)
-
-{display: none;}
+.nav ul li:nth-child(2), .nav ul li:nth-child(3) ,
+.nav ul li:nth-child(4), .nav ul li:nth-child(5) {display: none;}
 .nav ul li a{display: block; text-align:center;
   font-size:12px; color:#565656; font-weight: bold;}
 .nav .point a{color:#565656;}
 
-.minimenu .sMenu {}
+/* nav_submenu영역 */
+.nav_submenu{width: 100%;}
+.nav_submenu ul{background: skyblue;}
+.nav_submenu ul li{float: left; width:calc(100% / 5 );}
+.nav_submenu ul li a{display: block; text-align:center;line-height:40px;
+font-size:12px; color:#565656;}
+
+
 .slogo{display: block;position: absolute; top:10%; left:5%;}
 
 .minimenu{display: none}
@@ -168,8 +174,6 @@ left:120px;}
 .content .subI {display: none;}
 .content .msub{display: block;}
 .content .msub img{width: 100%;}
-
-
 
 
 
