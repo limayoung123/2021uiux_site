@@ -40,7 +40,7 @@ position: relative; display: flex; justify-content: center;align-items: center; 
 top: 16px;right:5%;
 border-radius:25px; background:#CE3E3E;}
 #headerTop .toggleMenu2 >p{font-size: 12px; color:#fff;display: flex; justify-content: center;align-items: center;
-padding-top: 8px; }
+padding-top: 10px;}
 
 
 
@@ -168,9 +168,9 @@ margin: 0 auto; position: relative;}
 .search .search1 .shop .look>p {font-size:14px; color:#212121; margin-bottom: 16px;}
 .search .search1 .shop .look img{width: 160px; height: 160px; position: absolute;
 right: 0; top:0}
-.search .search1 .shop .look .box1 {width: 300px; height: 48px; border: 1px solid #c4c4c4;}
-.search .search1 .shop .look .box2 {width: 48px; height: 48px; background: #E14B32;position: absolute; right:193px;
-top:79px}
+
+.search .search1 .shop .look .box{width: 348px;height: 48px; border: 1px solid  #c4c4c4;position: relative;}
+.search .search1 .shop .look .box .box2{width: 48px; height: 48px; background: #E14B32; position: absolute;right:0; top: 0;}
 .search .search1 .shop .look .box2 img {width: 24px; height: 24px; position: absolute; top:12px; left:12px; }
 
 .search .search1 .shop2 {width:620px;height:100%; padding: 74px 40px; position: absolute; top:0; left:620px;}

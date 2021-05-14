@@ -118,11 +118,10 @@ position:absolute;; top:10%; left:8%}
   {font-size:12px; color:#212121; margin-bottom: 16px;}
 .search .search1 .shop .look img{width: 60px; height: 60px;
    position: absolute; right: -30%; top:5%}
-.search .search1 .shop .look .box1 {
-  width: 180px; height: 30px; border: 1px solid #c4c4c4;}
-  .search .search1 .shop .look .box2 {
-  width: 30px; height: 30px; background: #E14B32;position: absolute;
-  left:179px; top:86%}
+.search .search1 .shop .look .box {
+  width: 180px; height: 30px; }
+.search .search1 .shop .look .box .box2 {
+  width: 30px; height: 30px;}
 .search .search1 .shop .look .box2 img {
   width: 24px; height: 24px; position: absolute; top:2px; left:4px; }
 
