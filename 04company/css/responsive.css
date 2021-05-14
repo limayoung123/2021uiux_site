@@ -145,10 +145,11 @@ left:120px;}
 
 
 /* 서브메뉴 영역 */
-.sub1 img{height: 300px;}
+.subTop{background:#6f3ea;height: 300px;}
+.subTop img{width: 100%;height: 300px;}
 .menu{position: relative;}
 .nav {width: 100%;border-radius:0px; position: relative; top:0;background: none;
-  border-bottom: 1px solid #E5E5E5;margin-bottom: 30px;}
+  border-bottom: 1px solid #E5E5E5;margin-bottom: 100px;}
 /* top:px 이상하면 빼버리기 */
 .nav ul li{float: left;  width:calc((100% -80px) / 5);}
 .nav ul li{margin-right:40px;}
@@ -158,14 +159,14 @@ left:120px;}
 .nav ul li:nth-child(2), .nav ul li:nth-child(3) ,
 .nav ul li:nth-child(4), .nav ul li:nth-child(5) {display: none;}
 .nav ul li a{display: block; text-align:center;
-  font-size:12px; color:#565656; font-weight: bold;}
+  font-size:12px !important; color:#565656; font-weight: bold;}
 .nav .point a{color:#565656;}
 
 /* nav_submenu영역 */
-.nav_submenu{display: block;position: absolute; width: 50%;right: 0;top:-6%;}
-.nav_submenu ul{background: #CE3E3E;}
+.nav_submenu{display: block;position: absolute; width: 50%;right: 0;top:0;overflow: hidden;height:60px}
+.nav_submenu ul{background: #CE3E3E;opacity: 0.9;}
 .nav_submenu ul li:hover{background: #f18686;}
-.nav_submenu ul li a{display: block; text-align:center;line-height:40px;
+.nav_submenu ul li a{display: block; text-align:center;line-height:60px;
 font-size:12px; color:#fff;}
 
 
@@ -173,13 +174,27 @@ font-size:12px; color:#fff;}
 
 .minimenu{display: none}
 
-.content{width: 100%; margin: 0 auto; margin-bottom: 80px;}
+.content{width: 100%; margin: 0 auto; margin-bottom: 100px; padding: 30px;}
 .content .subI {display: none;}
 .content .msub{display: block;}
 .content .msub img{width: 100%;}
 
 
+/* loacation영역 */
+.subMenu_location{position: relative;}
+.slogo{display: block;position: absolute; top:10%; left:5%;}
 
+/* new영역*/
+.subMenu_new{position: relative;}
+.slogo{display: block;position: absolute; top:10%; left:5%;}
+
+/* consumer영역*/
+.subMenu_consumer{position: relative;}
+.slogo{display: block;position: absolute; top:10%; left:5%;}
+
+/* shop영역*/
+.subMenu_shop{position: relative;}
+.slogo{display: block;position: absolute; top:10%; left:5%;}
 
 
 

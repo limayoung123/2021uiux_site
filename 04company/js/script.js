@@ -39,7 +39,12 @@ $("#main_menu > ul > li").mouseout(function(){
 });
 }
 
-
+$(".nav_submenu").mouseover(function(){
+  $(this).stop().animate({height:300},300)
+});
+$(".nav_submenu").mouseout(function(){
+  $(this).stop().animate({height:60},300)
+});
 
 
 });

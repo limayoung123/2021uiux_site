@@ -225,12 +225,13 @@ footer{width: 100%;margin-bottom: 20px;}
 
 .nav_submenu{display: none;}
 
-
-
-
-
-
-
+/* loacation영역 */
+.subMenu_location .nav ul li {margin-left: 530px;}
+/* new영역 */
+.subMenu_new .nav ul li {margin-left: 50px;}
+/* consumer영역*/
+.subMenu_consumer .nav ul li{margin-left: 280px}
+/* shop영역*/
 
 
 
