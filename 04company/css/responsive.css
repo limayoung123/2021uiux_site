@@ -15,10 +15,11 @@
 /* toggle1영역 */
 #main_menu {position: fixed; width:80%; height: 100%; left: 0;top:-100%; background:#CE3E3E; transition: 0.3s}
 #main_menu>ul {background:#EABB47; width: 80%; height: 100%;}
-#main_menu>ul>li {float:none !important; text-align:center; }
+#main_menu>ul>li {float:none !important; text-align:center; position: relative; left:20%}
 #main_menu li a{color:#565656;font-size:14px}
-#main_menu li:hover {background: #fff;}
-/* 클릭시 서브메뉴는 안보이게 */
+#main_menu li:hover a {color:red}
+
+
 #main_menu .sub1 {display: none;}
 #headerTop .toggleMenu.change .bar1{top:11px; left:50%; top:50%;transform:translate(-50%,-50%) rotate(-45deg)}
 #headerTop .toggleMenu.change .bar2{top:22px; opacity: 0;}
@@ -177,9 +178,6 @@ font-size:12px; color:#565656;}
 .content .msub{display: block;}
 .content .msub img{width: 100%;}
 
-/* 메뉴 슬라이더 가로말고 세로로 길게 오게 하는것
-모바일용 토글버튼 클릭시 서브메뉴 안보이게하는것
-서브페이지 메뉴 틀잡는것 */
 
 
 
