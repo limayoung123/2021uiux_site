@@ -174,10 +174,17 @@ font-size:12px; color:#fff;}
 
 .minimenu{display: none}
 
-.content{width: 100%; margin: 0 auto; margin-bottom: 100px; padding: 30px;}
+.content{width: 100%; margin: 0 auto; margin-bottom: 100px; }
 .content .subI {display: none;}
 .content .msub{display: block;}
 .content .msub img{width: 100%;}
+
+
+/* best영역 */
+.content_best{width: 100%; margin: 0 auto; margin-bottom: 100px;padding: 20px;}
+.content_best .subI {display: none;}
+.content_best .msub {display: block;}
+.content_best .msub img { width: 100%;}
 
 
 /* loacation영역 */
@@ -185,7 +192,11 @@ font-size:12px; color:#fff;}
 .slogo{display: block;position: absolute; top:10%; left:5%;}
 
 /* new영역*/
-.subMenu_new{position: relative;}
+.content_new{width: 100%; margin: 0 auto; margin-bottom: 100px;padding: 20px;}
+.content_new .subI {display: none;}
+.content_new .msub {display: block;}
+.content_new .msub img { width: 100%;}
+.subMenu_new {position: relative;}
 .slogo{display: block;position: absolute; top:10%; left:5%;}
 
 /* consumer영역*/
