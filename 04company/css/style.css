@@ -18,7 +18,7 @@ font-weight:bold;padding-top: 20px;}
   display:none; position: absolute; left:0 top:44px; width: 100%;}
 .sub1 li {width:100%; background:#CE3E3E;}
 .sub1 li a{text-align:center; line-height: 30px; font-size:14px; display: block;}
-.sub1 li:hover {background: #f18686; }
+.sub1 li a:hover {background:#c42323;}
 #main_menu .sub1 li>a{color:#fff }
 
 
