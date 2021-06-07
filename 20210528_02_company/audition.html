@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>STORY-J</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!-- popup창 띄우기위해 -->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <!-- 슬라이더 owl -->
+  <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+
+  <!-- fontawesome css -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <script src="js/jquery.3.4.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+  crossorigin="anonymous"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <style>
+    :root{
+        --primary-color-1:#00003E;
+        --primary-color-2:#11114B;
+        --bgcolor1:#EEEEEE;
+        --bgcolor2:#F4F4F4;
+        --gradient-color-1:linear-gradient(90deg,#00003E,#11114B);
+        --shadow-color:0 10px 30px rgba(118,85,225,0.3);
+        --box-shadow:0 10px 20px rgba(57,56,61,0.3);
+      }
+
+    .headerWrap{transition:0.3s}
+    .headerWrap .nav-item{font-size: 1.1rem; font-weight: bold;
+      border-bottom: 2px solid transparent; transition:0.3s}
+    .headerWrap .nav-item:hover{border-bottom: 2px solid var(--primary-color-2);}
+    .headerWrap.fixed-top{box-shadow:var(--box-shadow);}
+    .headerWrap .sns img{width: 40px; height: 40px;}
+
+    @media screen and (max-width:756px){
+        .headerWrap .nav-item{border-bottom: 0 none;padding-left: 10px;}
+        .headerWrap .nav-item:hover{border-bottom: 0 none; background:var(--bgcolor2);}
+        .headerWrap .sns{display: none;}
+        .art{left:14%;}
+
+        /* .footerWrap{width: 100%;background: #11114B;height: 240px;}
+        .footer{width: 1140px;margin: 0 auto;position: relative;}
+        .footer h2{float: left;padding-top: 70px;}
+        .f_r{float:left;width:800px;position: absolute; top:90px;right:0;}
+        .f_menu>a, .copy>a{display: block;color:#fff;text-decoration: none;} */
+
+        .footerWrap{width: 100%;}
+        .footer{width: 756px; margin: 0 auto;position: relative;}
+        .footer h2 img{width: 80px;height: 70px; margin-left: 10px;}
+        .f_r{width: 500px;position: absolute;top:30px;}
+
+
+
+      }
+
+      .artist h2.title:after,
+      .content h2.title:after,
+      .news h2.title:after
+      {content:"";display: block; font-weight: bold;
+      width: 200px; height: 2px; background:var(--primary-color-2);margin: 10px auto;}
+
+
+      .artist .art img{border-radius:10px;}
+      .art{position: relative; float: left;
+        margin-left: 20px;margin-right: 60px; cursor:pointer;}
+      .artist .art img:hover{opacity: 0.8;}
+      .art:last-child{margin-right: 0;}
+      .art p {background:#333; color:#fff; font-size: 15px; position: absolute;
+      right:0;bottom:-15px; padding: 5px; border-radius:0 0 10px 0}
+
+      #slide2 .owl-item.center {padding:0;}
+      #slide2 .owl-item {padding:30px; transition:0.3s}
+
+    .content{ background: var(--bgcolor1);}
+    .btn-group button{background:none; border:0 none; font-weight: bold;
+    outline:0; font-size: 1.1rem; color:#777;}
+    .btn-group button + button {margin-left: 30px;}
+    .btn-group button.active{color:var(--primary-color-1)}
+    .element-item img{border-radius: 5px; transition:0.3s}
+    .element-item img:hover{box-shadow:var(--box-shadow);}
+
+    .news .card{border-radius: 5px;cursor: pointer;}
+    .news .card-body .card-title{font-size: 22px; color:#222;font-weight: bold;}
+    .news .card-body .card-text{font-size: 15px; color:#777;}
+    .news .card{ border:0 none;transition:0.3s}
+    .news .card img{border-radius: 5px;}
+    .news .card:hover{transform:scale(1.1);box-shadow:var(--box-shadow);}
+
+    .commuity .card-body h5{font-size: 18px;font-weight: bold;color:#222;}
+    .commuity .card-body p{font-size: 15px;color:#222;}
+    .commuity .card{border-radius: 10px;cursor: pointer;}
+    .commuity .card:hover{box-shadow:var(--box-shadow);}
+
+    .footerWrap{width: 100%;background: #11114B;height: 240px;}
+    .footer{width: 100%;background: #11114B;}
+    .footer p{text-decoration:none; display: block; color:#fff;}
+    .footer a{text-decoration:none; display: block; color:#fff;}
+
+
+
+
+  </style>
+
+</head>
+<body>
+<div class="headerWrap bg-white fixed-top" >
+  <div class="container px-md-0 ">
+    <nav class="navbar navbar-expand-md navbar-light">
+    <a class="navbar-brand pr-5" href="index.html">
+      <img src="images/logo_sub.png" alt="상단로고" class="img-fluid">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+    data-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active pr-5">
+          <a class="nav-link" href="company.html">COMPANY</a>
+        </li>
+        <li class="nav-item  pr-5">
+          <a class="nav-link" href="artist.html">ARTIST</a>
+        </li>
+
+          <li class="nav-item dropdown pr-5">
+           <a class="nav-link dropdown-toggle" href="multi.html" id="navbarDropdown" role="button"
+           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PR</a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <a class="dropdown-item" href="multi.html">MULTIMEDIA</a>
+           </div>
+         </li>
+
+        <li class="nav-item pr-5">
+          <a class="nav-link" href="audition.html">AUDITION</a>
+        </li>
+
+          <li class="sns pr-3">
+            <a href="#">
+              <img src="images/mo_sns01.png" alt="">
+            </a>
+          </li>
+          <li class="sns pr-3">
+            <a href="#">
+              <img src="images/mo_sns02.png" alt="">
+            </a>
+          </li>
+          <li class="sns">
+            <a href="#">
+              <img src="images/mo_sns03.png" alt="">
+            </a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+  </div><!-- container end -->
+</div><!-- headerWrap end -->
+
+<!-- sub start -->
+<style>
+.contact{background:url(images/bg03.png)no-repeat center;
+background-size: cover;}
+</style>
+<div class="contact py-5 mb-5 subimgView company py-5" style="margin-top: 96px;">
+  <div class="container py-5">
+    <div class="row text-white text-center">
+      <div class="col-md-6 offset-md-3">
+        <h3 class="mb-3">세계 속의 스토리제이 컴퍼니</h3>
+        <p>문화 콘텐츠사업의 트랜드를 이끌어가는 기업</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="company">
+  <div class="container mb-5">
+    <h1 class="mb-3"><a href="#!">AUDITION</a></h1>
+    <div class="row">
+      <div class="co1-1">
+        <img src="images/audition_sub.jpg" alt="서브콘텐츠영역" class="w-100">
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+<!-- sub end -->
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row pt-3">
+      <div class="col-lg-2 mb-4 mb-lg-0 p-3 d-flex
+      justify-content-center justify-content-md-end">
+        <a href="#!"><img src="images/foot_logo.png" alt=""></a>
+      </div>
+      <!-- 3나머지를 둘이서 나눠갖는것 -->
+        <div class="col-lg-8 text-center pt-lg-5 pt-0">
+          <p class="small">서울시 마포구 월드컵로 12길 10 시연빌딩 3층
+            E-mail. storyjcompany@naver.com Tel. 02-2677-6868</p>
+          <p class="small">Copyright STORYJCOMPANY. All Rights Reserved.</p>
+        </div>
+      <div class="col-lg-2 pt-lg-5 pt-0">
+        <ul class="d-flex justify-content-center justify-content-md-end">
+          <li class="px-3"><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="px-3"><a href="#!"><i class="fab fa-google"></i></a></li>
+          <li class="px-3"><a href="#!"><i class="fab fa-twitter"></i></a></li>
+          <li class="px-3"><a href="#!"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+
+  </div>
+  </div><!-- container -->
+
+</footer>
+<!-- footer end -->
+
+
+<script>
+
+  //main 슬라이드
+$("#slide1").owlCarousel({
+  loop:true,
+  margin:60,
+  autoplay:true,
+  responsive:{
+    0:{items:1},
+    600:{items:1},
+    1000:{items:1}
+  }
+});
+//artist 슬라이드
+$("#slide2").owlCarousel({
+  center: true,
+  loop:true,
+  margin:60,
+  autoplay:true,
+  responsive:{
+    0:{items:1},
+    600:{items:3},
+    1000:{items:3}
+  }
+});
+
+//button
+const btns = $(".content .btn-group button")
+  btns.click(function(){
+    let i =$(this).index();
+    btns.removeClass("active");
+    btns.eq(i).addClass("active");
+    let selector = btns.eq(i).attr("data-filter");
+    console.log(selector);
+
+    $(".content .view").isotope({
+      filter:selector
+    });
+  });
+  window.onload = function(){
+    $(".content .btn-group #btn").trigger("click");
+  };
+
+  $(".view .popup_link").magnificPopup({type:"image"});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->
+</body>
+</html>
